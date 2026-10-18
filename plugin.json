@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jev-decision-layer",
+  "version": "0.1.0",
+  "description": "Jev Decision Layer — judgment-only MCP tools for routing, research check, completion review, and action guard.",
+  "author": { "name": "tinkabot" },
+  "keywords": ["jev", "typesafe", "decision", "mcp"]
+}

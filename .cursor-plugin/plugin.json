@@ -1,0 +1,43 @@
+{
+  "name": "jev-decision-layer",
+  "version": "0.1.0",
+  "description": "Jev Decision Layer \u2014 typed judgment tools (route/check/review/guard). Returns decisions only; never executes actions.",
+  "author": {
+    "name": "tinkabot"
+  },
+  "keywords": [
+    "jev",
+    "typesafe",
+    "decision",
+    "mcp",
+    "guardrails"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "JEV_API_KEY": {
+        "type": "string",
+        "title": "Jev / TypeSafe API key",
+        "description": "Bearer key (jv_live_\u2026 or TypeSafe console key). Also accepts TYPESAFE_API_KEY at runtime."
+      },
+      "JEV_MODEL": {
+        "type": "string",
+        "title": "Jev model",
+        "description": "Optional model pin, default jev-latest",
+        "default": "jev-latest"
+      },
+      "JEV_BASE_URL": {
+        "type": "string",
+        "title": "API base URL override",
+        "description": "OpenRouter: https://openrouter.ai/api (or \u2026/api/v1/systemone). Leave empty for TypeSafe/Jev hosts.",
+        "default": "https://openrouter.ai/api"
+      },
+      "OPENROUTER_API_KEY": {
+        "type": "string",
+        "title": "OpenRouter API key",
+        "description": "Required when JEV_BASE_URL points at openrouter.ai (sk-or-\u2026). Billed to OpenRouter."
+      }
+    },
+    "required": []
+  }
+}

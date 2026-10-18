@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "jev-decision-layer": {
+      "command": "node",
+      "args": [
+        "${CURSOR_PLUGIN_ROOT}/server.mjs"
+      ],
+      "env": {
+        "JEV_API_KEY": "${JEV_API_KEY}",
+        "JEV_MODEL": "${JEV_MODEL}",
+        "JEV_BASE_URL": "${JEV_BASE_URL}",
+        "OPENROUTER_API_KEY": "${OPENROUTER_API_KEY}"
+      }
+    }
+  }
+}
