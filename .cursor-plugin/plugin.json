@@ -7,6 +7,7 @@
   },
   "license": "MIT",
   "repository": "https://github.com/greyhawk/jev-decision-layer",
+  "logo": "assets/logo.svg",
   "keywords": [
     "jev",
     "typesafe",
