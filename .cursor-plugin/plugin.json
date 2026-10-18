@@ -5,6 +5,8 @@
   "author": {
     "name": "tinkabot"
   },
+  "license": "MIT",
+  "repository": "https://github.com/greyhawk/jev-decision-layer",
   "keywords": [
     "jev",
     "typesafe",

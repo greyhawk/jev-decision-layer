@@ -4,5 +4,7 @@
   "version": "0.1.0",
   "description": "Jev Decision Layer — judgment-only MCP tools for routing, research check, completion review, and action guard.",
   "author": { "name": "tinkabot" },
+  "license": "MIT",
+  "repository": "https://github.com/greyhawk/jev-decision-layer",
   "keywords": ["jev", "typesafe", "decision", "mcp"]
 }
